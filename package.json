@@ -1,0 +1,23 @@
+{
+  "name": "@nodedk/std",
+  "version": "0.1.0",
+  "description": "NodeDK Standard Library",
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test spec/tests/**/*.test.js",
+    "test:watch": "nodemon --exec 'npm test'"
+  },
+  "homepage": "https://github.com/nodedk/std#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodedk/std.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodedk/std/issues"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  }
+}
