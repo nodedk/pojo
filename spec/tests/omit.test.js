@@ -1,5 +1,5 @@
 var assert = require('node:assert')
-var { describe, test } = require('node:test')
+var { test, describe } = require('node:test')
 
 var pojo = require('../../index.js')
 
